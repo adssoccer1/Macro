@@ -4,7 +4,7 @@ Policy -> Macro Flows -> Options Flows -> Drive Markets
 
 **Aidan Sinclair - 1/1/25 - [Linkedin](https://www.linkedin.com/in/aidan-sinclair/) - [Twitter](https://x.com/aidansinclair_)**
 
-
+## My Writing 
 
 2/28/25 - Reiterating 3-5 Fed Cuts over the next 12-14 Months [Here](https://github.com/adssoccer1/Macro/blob/main/Reiterating3to5FedCuts.ipynb)
 
