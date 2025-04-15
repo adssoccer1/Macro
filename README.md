@@ -25,3 +25,7 @@ See [Here](https://github.com/adssoccer1/Macro/tree/main/Charts)
 1/10/25 - Liquidity Injections [Here](https://github.com/adssoccer1/Macro/blob/main/LiquidityInjections.ipynb)
 
 1/1/25 - Monitoring Dollar Strength as a Potential Catalyst for a U.S. Equity Selloff [Here](https://github.com/adssoccer1/Macro/blob/main/DollarStrengthLeavesEquitiesVulnerable.ipynb)
+
+## My Interview Notes
+
+See [Here](https://github.com/adssoccer1/Macro/tree/main/Interview%20Notes)
