@@ -10,6 +10,8 @@ See [Here](https://github.com/adssoccer1/Macro/tree/main/Charts)
 
 ## My Writing 
 
+4/14/25 - Exposing Dealer Gamma Exposure [Here](https://github.com/adssoccer1/Macro/blob/main/ExposingDealerGammaExposure.ipynb)
+
 4/11/25 - Good Calls in the Eye of the Storm  [Here](https://github.com/adssoccer1/Macro/blob/main/GoodCallsintheEyeoftheStorm.ipynb)
 
 2/28/25 - Reiterating 3-5 Fed Cuts over the next 12-14 Months [Here](https://github.com/adssoccer1/Macro/blob/main/Reiterating3to5FedCuts.ipynb)
