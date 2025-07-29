@@ -10,6 +10,8 @@ See [Here](https://github.com/adssoccer1/Macro/tree/main/Charts)
 
 ## My Writing 
 
+8/1/25 - Modern Mercantilism Challenge [Here](https://github.com/adssoccer1/Macro/blob/main/Modern%20Mercantilism%20Challenge/Aidan_Sinclair_A_Reflexive_Rebalancing.pdf)
+
 4/14/25 - Exposing Dealer Gamma Exposure [Here](https://github.com/adssoccer1/Macro/blob/main/ExposingDealerGammaExposure.ipynb)
 
 4/11/25 - Good Calls in the Eye of the Storm  [Here](https://github.com/adssoccer1/Macro/blob/main/GoodCallsintheEyeoftheStorm.ipynb)
