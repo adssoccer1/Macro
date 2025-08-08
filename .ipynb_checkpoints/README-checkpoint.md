@@ -2,7 +2,7 @@
 
 Policy -> Macro Flows -> Options Flows -> Drive Markets
 
-**Aidan Sinclair - 1/1/25 - [Linkedin](https://www.linkedin.com/in/aidan-sinclair/) - [Twitter](https://x.com/aidansinclair_)**
+**Aidan Sinclair - 1/1/25 - [Resume](./Resume/Aidan_Sinclair_Resume.docx.pdf) - [Linkedin](https://www.linkedin.com/in/aidan-sinclair/) - [Twitter](https://x.com/aidansinclair_)**
 
 ## My Charts
 
