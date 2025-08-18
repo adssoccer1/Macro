@@ -10,6 +10,8 @@ See [Here](https://github.com/adssoccer1/Macro/tree/main/Charts)
 
 ## My Writing 
 
+8/17/25 - Exploring Concurrent Necessity in Today's Macro Landscape [Here](https://github.com/adssoccer1/Macro/blob/main/ExploringConcurrentNecessityMacroLandscape.ipynb)
+
 8/15/25 - Super Cheap Lunch for September Rate Cut Decision [Here](https://github.com/adssoccer1/Macro/blob/main/SuperCheapLunchforSeptRateCutDecision.ipynb)
 
 8/1/25 - Modern Mercantilism Challenge [Here](https://github.com/adssoccer1/Macro/blob/main/Modern%20Mercantilism%20Challenge/Aidan_Sinclair_A_Reflexive_Rebalancing.pdf)
