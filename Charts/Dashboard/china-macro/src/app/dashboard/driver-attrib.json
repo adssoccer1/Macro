@@ -1,0 +1,98 @@
+[
+    {
+      "date": "2025-11-07",
+      "asset": "CSI300",
+      "ret_pct": 0.85,
+      "growth": 0.30,
+      "inflation_tot": -0.05,
+      "policy": 0.35,
+      "usd_global": 0.18,
+      "property_credit": 0.02,
+      "residual": 0.05,
+      "note": "MLF −10bp; CNH firm; copper +1%"
+    },
+    {
+      "date": "2025-11-07",
+      "asset": "CNH (inv.)",
+      "ret_pct": 0.32,
+      "growth": 0.06,
+      "inflation_tot": -0.04,
+      "policy": 0.22,
+      "usd_global": 0.10,
+      "property_credit": -0.02,
+      "residual": 0.00,
+      "note": "Fix below est.; DXY −0.2%"
+    },
+    {
+      "date": "2025-11-06",
+      "asset": "CSI300",
+      "ret_pct": -0.40,
+      "growth": -0.15,
+      "inflation_tot": 0.00,
+      "policy": -0.10,
+      "usd_global": -0.05,
+      "property_credit": -0.04,
+      "residual": -0.06,
+      "note": "Tier-2 sales −15% w/w; risk-off"
+    },
+    {
+      "date": "2025-11-06",
+      "asset": "CNH (inv.)",
+      "ret_pct": 0.10,
+      "growth": 0.01,
+      "inflation_tot": -0.03,
+      "policy": 0.08,
+      "usd_global": 0.05,
+      "property_credit": 0.00,
+      "residual": -0.01,
+      "note": "OMO net inject; Brent +1.2%"
+    },
+    {
+      "date": "2025-11-05",
+      "asset": "CSI300",
+      "ret_pct": 0.25,
+      "growth": 0.10,
+      "inflation_tot": 0.04,
+      "policy": 0.06,
+      "usd_global": 0.03,
+      "property_credit": 0.01,
+      "residual": 0.01,
+      "note": "PMI N-O minus Inv ↑; copper +0.8%"
+    },
+    {
+      "date": "2025-11-05",
+      "asset": "CNH (inv.)",
+      "ret_pct": 0.05,
+      "growth": 0.01,
+      "inflation_tot": 0.00,
+      "policy": 0.03,
+      "usd_global": 0.01,
+      "property_credit": 0.00,
+      "residual": 0.00,
+      "note": "Stable fix; DXY flat"
+    },
+    {
+      "date": "2025-11-04",
+      "asset": "CSI300",
+      "ret_pct": -0.15,
+      "growth": -0.06,
+      "inflation_tot": -0.02,
+      "policy": 0.00,
+      "usd_global": -0.03,
+      "property_credit": -0.02,
+      "residual": -0.02,
+      "note": "Oil +3% d/d; weak global"
+    },
+    {
+      "date": "2025-11-04",
+      "asset": "CNH (inv.)",
+      "ret_pct": -0.12,
+      "growth": -0.01,
+      "inflation_tot": -0.05,
+      "policy": -0.01,
+      "usd_global": -0.04,
+      "property_credit": 0.00,
+      "residual": -0.01,
+      "note": "USDCNH higher; Brent spike"
+    }
+  ]
