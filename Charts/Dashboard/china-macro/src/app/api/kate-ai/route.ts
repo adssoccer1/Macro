@@ -1,42 +1,39 @@
-import { NextRequest, NextResponse } from "next/server";
+// app/api/kate-ai/route.ts
+export const runtime = "nodejs";
+export const dynamic = "force-dynamic"; // avoid caching
+
 import OpenAI from "openai";
+import { NextResponse } from "next/server";
 
-const MODEL = process.env.KATE_AI_MODEL || "gpt-4o-mini";
+const client = new OpenAI({
+  apiKey: process.env.OPENAI_API_KEY,
+  project: process.env.OPENAI_PROJECT,
+});
 
-export async function POST(req: NextRequest) {
+export async function POST(req: Request) {
+  if (!process.env.OPENAI_API_KEY) {
+    return NextResponse.json({ ok: false, error: "Missing OPENAI_API_KEY" }, { status: 500 });
+  }
+
+  const { messages } = await req.json();
+
   try {
-    const { messages, snapshot } = await req.json();
-
-    if (!process.env.OPENAI_API_KEY) {
-      return NextResponse.json({ error: "Missing OPENAI_API_KEY" }, { status: 500 });
-    }
-
-    const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
-
-    const sys = [
-      {
-        role: "system",
-        content:
-          "You are Kate Capital AI, a concise macro research assistant. Focus on China’s growth, inflation, policy, and risk premia. Use the provided dashboard snapshot if present to ground your answer. If data is missing, say what you would need. Be brief, actionable, and avoid fluff.",
-      },
-      {
-        role: "system",
-        content:
-          snapshot
-            ? `DASHBOARD_SNAPSHOT:\n${JSON.stringify(snapshot).slice(0, 20000)}`
-            : "No snapshot available.",
-      },
-    ];
-
-    const resp = await openai.chat.completions.create({
-      model: MODEL,
-      messages: [...sys, ...(Array.isArray(messages) ? messages : [])],
-      temperature: 0.3,
+    const resp = await client.chat.completions.create({
+      model: "gpt-4o-mini",
+      temperature: 0.2,
+      messages,
     });
 
-    const reply = resp.choices?.[0]?.message?.content ?? "Sorry, I couldn’t generate a response.";
-    return NextResponse.json({ reply });
-  } catch (e: any) {
-    return NextResponse.json({ error: e?.message ?? "Unknown error" }, { status: 500 });
+    const text = resp.choices?.[0]?.message?.content ?? "";
+
+    return NextResponse.json(
+      { ok: true, text, usage: resp.usage, model: resp.model },
+      { headers: { "Cache-Control": "no-store" } }
+    );
+  } catch (err: any) {
+    return NextResponse.json(
+      { ok: false, error: err?.message ?? "OpenAI call failed" },
+      { status: err?.status ?? 500 }
+    );
   }
 }

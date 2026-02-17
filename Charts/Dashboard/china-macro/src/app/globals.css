@@ -44,6 +44,7 @@
 }
 
 :root {
+  --app-zoom: 0.75;
   --radius: 0.625rem;
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
@@ -118,5 +119,6 @@
   }
   body {
     @apply bg-background text-foreground;
+    zoom: var(--app-zoom);
   }
 }

@@ -47,10 +47,16 @@ export function AgentSheet() {
         }),
       });
       const data = await res.json();
+      console.log("kate-ai response", data);
       const reply: Msg = {
-        role: "assistant",
-        content: data.reply || data.error || "No response.",
-      };
+       role: "assistant",
+       content:
+         data.message ??
+         data.text ??
+         data.choices?.[0]?.message?.content ?? // safety if route changes
+         data.error ??
+         "No response.",
+     };
       setMessages((m) => [...m, reply]);
     } catch (err: any) {
       setMessages((m) => [...m, { role: "assistant", content: `Error: ${err?.message ?? "unknown"}` }]);
